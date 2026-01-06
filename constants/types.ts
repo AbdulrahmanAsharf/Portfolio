@@ -1,0 +1,35 @@
+export interface Service {
+  title: string;
+  icon: string;
+}
+
+
+export interface Experience {
+  title: string;
+  company_name: string;
+  icon: string;
+  iconBg: string;
+  date: string;
+  points: string[];
+}
+
+
+export interface Technology {
+  name: string;
+  icon: string;
+}
+
+
+export interface Tag {
+  name: string;
+  color: string;
+}
+
+export interface Project {
+  name: string;
+  description: string;
+  tags: Tag[];
+  image: string;
+  source_code_link: string;
+  live_demo_link: string;
+}
